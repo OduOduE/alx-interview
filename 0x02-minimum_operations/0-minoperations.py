@@ -4,7 +4,7 @@
 
 def minOperations(n):
     ''' Finds fewest possible ops for n H chars in a file. '''
-    pasted_chars = 1 # number of chars in file
+    pasted_chars = 1    # number of chars in file
     clipboard = 0   # number of copied H
     counter = 0     # ops counter
 
