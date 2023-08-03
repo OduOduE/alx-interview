@@ -4,7 +4,9 @@ import sys
 
 
 def is_safe(board, row, col, N):
-    # Check if a queen can be placed at the given position without attacking other queens
+    ''' Check if a queen can be placed at the given position
+    without attacking other queens.
+    '''
     for i in range(row):
         if board[i] == col or abs(board[i] - col) == abs(i - row):
             return False
