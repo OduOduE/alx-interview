@@ -9,4 +9,4 @@ The program prints every possible solution to the problem
 One solution per line
 Format: see example
 You dont have to print the solutions in a specific order
-You are only allowed to import the sys module.
+I am only allowed to import the sys module.
